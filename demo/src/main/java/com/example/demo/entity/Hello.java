@@ -6,6 +6,7 @@ import com.baomidou.mybatisplus.annotation.TableName;
 import java.io.Serializable;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
+import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -18,8 +19,9 @@ import lombok.Setter;
  * @since 2023-05-22
  */
 @Getter
+@Data
 @Setter
-  @TableName("sys_hello")
+@TableName("sys_hello")
 @ApiModel(value = "Hello对象", description = "")
 public class Hello implements Serializable {
 
