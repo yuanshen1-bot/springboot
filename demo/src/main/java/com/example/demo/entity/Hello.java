@@ -16,9 +16,8 @@ import lombok.*;
  * @author jjm
  * @since 2023-05-22
  */
-@Getter
 @Data
-@Setter
+@Getter
 @NoArgsConstructor
 @AllArgsConstructor
 @TableName("sys_hello")
