@@ -18,8 +18,6 @@ import lombok.*;
  */
 @Data
 @Getter
-@NoArgsConstructor
-@AllArgsConstructor
 @TableName("sys_hello")
 @ApiModel(value = "Hello对象", description = "")
 public class Hello implements Serializable {
